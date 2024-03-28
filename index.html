@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Picture App</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Cat Picture App</h1>
+
+    <!-- Form to upload a cat picture -->
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" id="catInput" name="cat" accept="image/*" required />
+      <button type="submit">Upload Picture</button>
+    </form>
+
+    <!-- Container to display uploaded cat pictures -->
+    <div id="catPictures"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
